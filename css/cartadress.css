@@ -1,0 +1,352 @@
+/*public*/
+#login,#logobox,#mycar{
+	width: 1200px;
+	margin: auto;
+}
+/*cart-head*/
+#login{height: 35px;margin-bottom: 20px;line-height: 35px;overflow: hidden;}
+#login .lg_re{width: 400px;height: 30px;float: left;line-height: 30px;}
+#login .lg_re span{margin-left: 20px;}
+#login .lg_re a:first-child{margin-left: 82px; margin-right: 20px;}
+#login ul{float: right;}
+#login ul li{float: left;width: 70px;height: 30px;text-align: center;line-height: 30px;position: relative;z-index: 10;}
+/*logo*/
+#logobox{
+	height: 75px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#logobox h1{
+	width: 155px;
+	height: 75px;
+	float: left;
+}
+#logobox div{
+	height: 46px;
+	float: right;
+	position: relative;
+	margin-top: 20px;
+}
+#logobox div span{
+	display: block;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 46px;
+	font-size: 16px;
+	background: #ddd;
+}
+#logobox div p{
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+#logobox div h3{
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+}
+#logobox .car-a{
+	width: 136px;
+	margin-right: 20px;
+}
+#logobox .car-a span{
+	background: #ff6600;
+	
+}
+#logobox .car-b span{
+	background: #ff6600;
+	
+}
+#logobox .car-a h3{
+	color: #FF6600;
+}
+#logobox .car-b h3{
+	color: #FF6600;
+}
+
+#logobox .car-b{
+	width: 150px;
+	margin-right: 20px;
+}
+
+#logobox .car-c{
+	width: 120px;
+}
+/*mycar*/
+#mycar{
+	overflow: hidden;
+}
+#mycar .mycar_l{
+	width: 198px;
+	height: 410px;
+	border: 1px solid #FF6600;
+	float: left;
+}
+#mycar .mycar_l .mymess{
+	height: 32px;
+	width: 168px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 32px;
+	background: #FF6600;
+}
+#mycar .mycar_l ul li{
+	text-indent: 30px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 5px;
+	
+}
+#mycar .mycar_l ul li:hover {
+	background: #ffa264;
+}
+#mycar .mycar_l ul li:hover a{
+	color: #fff;
+}
+#mycar .mycar_l input{
+	width: 100px;
+	height: 30px;
+	border: 0;
+	background: #FF6600;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+#mycar .mycar_r{width: 993px;float: right;}
+#mycar .mycar_r h2{
+	width: 993px;
+	height: 30px;
+	border-bottom: 2px solid #FF6600;
+	margin-bottom: 20px;
+}
+#mycar .mycar_r .address_box{
+	border: 1px solid #ddd;
+	padding: 20px 0 10px 10px;
+	margin-bottom: 20px;
+	
+}
+#mycar .mycar_r .address_box h3{
+	color: #318700;
+	cursor: pointer;
+}
+#mycar .mycar_r .address_box ul{
+	width: 640px;
+	height: 130px;
+	position: relative;
+}
+#mycar .mycar_r .address_box ul li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dotted #ddd;
+}
+#shr_name,#shr_ad,#shr_pnum{
+	color: red;
+}
+#mycar .mycar_r .address_box ul li:nth-child(4){
+	width: 30px;
+	border: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
+}
+#mycar .mycar_r .address_box ul li:nth-child(5){
+	width: 30px;
+	border: 0;
+	position: absolute;
+	bottom: 0;
+	left: 35px;
+	cursor: pointer;
+}
+/*配送部分*/
+#mycar .mycar_r .peis{
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	
+}
+/*支付方式*/
+#mycar .mycar_r .zhifu{
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	
+}
+#mycar .mycar_r .zhifu h3{
+	width: 971px;
+	height: 27px;
+	border-bottom: 1px dotted #ddd;
+	line-height: 28px;
+}
+#mycar .mycar_r .zhifu div{
+	width: 971px;
+	height: 40px;
+	border-bottom: 1px dotted #ddd;
+	line-height: 41px;
+}
+#mycar .mycar_r .zhifu div span{
+	color: #FF6600;
+}
+/*************金额*********************/
+#mycar .mycar_r .spps{
+	width: 983px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+#mycar .mycar_r .spps span{color: #FF6600;}
+#mycar .mycar_r .yhje{
+	width: 983px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+#mycar .mycar_r .yhje span{color: #FF6600;}
+#mycar .mycar_r .hdyh{
+	width: 983px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+}
+#mycar .mycar_r .hdyh span{color: #FF6600;}
+#mycar .mycar_r .zje{
+	width: 983px;
+	height: 33px;
+	line-height: 33px;
+	text-align: right;
+}
+#mycar .mycar_r .zje span{color: #FF6600; font-weight: bold;font-size: 14px;}
+#mycar .mycar_r .ddbtn{
+	width: 983px;
+	height: 38px;
+}
+#mycar .mycar_r .ddbtn input{
+	width: 175px;
+	height: 38px;
+	border: 0;
+	background: #FF6600;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#mycar .mycar_r .ddbtn a{
+	display: block;
+	float: right;
+	line-height: 50px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+/*遮罩层*/
+#zcc{
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	opacity: 0.5;
+}
+/*收货人详细信息*/
+#cont_adress{
+	width: 640px;
+	height: 450px;
+	padding: 20px 30px 0 30px;
+	background: #fff;
+	position: fixed;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 200px;
+	z-index: 20;
+}
+#cont_adress .chek_off{
+	width: 640px;
+	height: 39px;
+	line-height: 40px;
+	position: relative;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+}
+#cont_adress .chek_off a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #FF6600;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#cont_adress dl{
+	width: 640px;
+	height: 26px;
+	position: relative;
+	margin-top: 35px;
+}
+#cont_adress dl dt{
+	width: 85px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+}
+#cont_adress dl dd{
+	float: left;
+}
+#cont_adress dl dd input{
+	height: 24px;
+}
+#cont_adress dl span{
+	color: red;
+}
+#cont_adress .checkderbox{
+	height: 20px;
+	margin-top: 40px;
+	margin-left: 85px;
+}
+#cont_adress .checkorder-btn{
+	margin-top: 20px;
+	position: relative;
+}
+#cont_adress .checkorder-btn input{
+	width: 107px;
+	height: 32px;
+	border-radius: 5px;
+	border: 0;
+	position: absolute;
+	left: 150px;
+	background: #FF6600;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+#cont_adress .checkorder-btn a{
+	display: inline-block;
+	width: 105px;
+	height: 30px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 32px;
+	position: absolute;
+	left: 267px;
+	font-size: 14px;
+	color: #ddd;
+}

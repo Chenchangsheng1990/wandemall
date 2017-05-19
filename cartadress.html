@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>收货地址页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cartadress.css"/>
+	</head>
+	<body>
+		<!--遮罩层-->
+		<div id="zcc">
+			
+		</div>
+		<!--头部-->
+		<div id="login">
+				<div class="lg_re">
+					<a href="register.html">注册</a>
+					<a href="login.html">登录</a>
+					<span>万德商城欢迎您：请先登录</span>
+				</div>
+				<ul>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">商家入口</a></li>
+					<li><a href="#">客户服务</a></li>
+				</ul>
+		</div>
+		<!--logo-->
+		<div id="logobox">
+			<h1><a href="index.html"><img src="images/indexlogo.png"/></a></h1>
+			<div class="car-c">
+				<span>3</span>
+				<p>第三步</p>
+				<h3>提交成功</h3>
+			</div>
+			<div class="car-b">
+				<span>2</span>
+				<p>第二步</p>
+				<h3>填写核对订单</h3>
+			</div>
+			<div class="car-a">
+				<span>1</span>
+				<p>第一步</p>
+				<h3>我的购物车</h3>
+			</div>
+		</div>
+		<!--mycar-->
+		<div id="mycar">
+			<div class="mycar_l">
+				<div class="mymess">
+					买家后台
+				</div>
+				<ul>
+					<li><a href="#">我的信息管理</a></li>
+					<li><a href="#">收货地址管理</a></li>
+					<li><a href="#">购物车</a></li>
+					<li><a href="#">订单管理</a></li>
+					<li><a href="#">充值管理</a></li>
+					<li><a href="#">换货管理</a></li>
+					<li><a href="#">收藏管理</a></li>
+					<li><a href="#">退货退款管理</a></li>
+					<li><a href="#">优惠券</a></li>
+					<li><a href="#">系统信息</a></li>
+				</ul>
+				<input type="submit" id="zxbtn" value="注销退出" />
+			</div>
+			<div class="mycar_r">
+				<h2>填写核对订单</h2>
+				<div class="address_box">
+					<ul>
+						<li>收件人：<span id="shr_name">请编辑收货信息</span></li>
+						<li>详细地址：<span id="shr_ad">请编辑收货信息</span></li>
+						<li>联系电话：<span id="shr_pnum">请编辑收货信息</span></li>
+						<li class="bj">编辑</li>
+						<li class="shanc">删除</li>
+					</ul>
+					<h3 id="add-address">新增收货地址</h3>
+				</div>
+				<!--配送-->
+				<div class="peis">
+					<table>
+							<thead>
+								<tr height="36">
+									<td width="250" align="center">配送包裹</td>
+									<td width="161" align="center">运费</td>
+								</tr>
+							</thead>
+							
+					</table>
+
+				</div>
+				<!--支付方式-->
+				<div class="zhifu">
+					<h3>支付方式：</h3>
+<div>
+						<input type="radio" name="zf"  checked="checked" />在线支付&nbsp;&nbsp;&nbsp;为了保证及时处理您的订单，请您下单<span>2小时</span>内付款
+						</div>
+						<div>
+						<input type="radio" name="zf" id="zf" value="1"/>余额支付 &nbsp;&nbsp;&nbsp;<span>
+						剩余金额:0.0<input type="hidden" name="ye" id="ye" value="0.0" />
+						</span>
+						</div>
+						<div class="checkorder-coupons">
+							<input type="checkbox"  onclick="check123(this)"/>使用优惠券
+
+				</div>
+			</div>	
+			<!--商品金额-->
+			<div class="spps">
+				商品金额：<span id="zje">0.00</span>元+运费:<span id="yf">0.00</span>元
+			</div>
+			<!--优惠金额-->
+			<div class="yhje">
+				优惠金额：<span id="yhjeje">0.00</span>元
+			</div>
+			<!--活动优惠-->
+			<div class="hdyh">
+				活动优惠：<span id="hdyjje">0.00</span>
+			</div>
+			<!--需要支付的总费用-->
+			<div class="zje">
+				您需为订单支付金额<span id="zongje">￥0.00</span>元
+			</div>
+			<!--提交订单-->
+			<div class="ddbtn">
+				<input type="button" id="dd_btn" value="提交订单" />
+				<a href="cart.html">返回购物车</a>
+			</div>
+		</div>
+		
+		<!--cont-adress-->
+		<div id="cont_adress">
+			<div class="chek_off">
+				新增地址<a id="checkoffa" href="javescript:;">×</a>
+			</div>
+			<dl>
+				<dt><span>*</span>收货人：</dt>
+				<dd>
+					<input type="text" id="shr" name="shr" />
+					<span>请填写收货人姓名！</span>
+				</dd>
+			</dl>
+			<dl>
+				<dt><span>*</span>所在地区：</dt>
+				<dd style="width: 540px;">
+					<div class="checkorder-address">
+						省份：<select name="province" id="province"><option>请选择</option></select>城市：<select name="city" id="city"><option>请选择</option></select>区（县）：<select name="district" id="district"><option>请选择</option></select>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt><span>*</span>详细地址：</dt>
+				<dd><input type="text" id="detailedaddress" name="detailedadress" /><span>请填写收货人的详细地址</span></dd>
+			</dl>
+			<dl>
+				<dt><span>*</span>手机号：</dt>
+				<dd><input type="text" id="cphone" name="chopne" /><span>请填写收货人的手机号码</span></dd>
+			</dl>
+			<div class="checkderbox">
+				<input type="checkbox" checked="checked" name="dadd" id="dadd" value="1"/><label>设置为默认收货地址</label>
+			</div>
+			<div class="checkorder-btn">
+				<input type="button" value="保存" id="bcbtn"/>
+				<a href="javascript:;" class="checkorder-cancel">取消</a>
+			</div>	
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/cartaddress.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript">
+		</script>
+	</body>
+</html>

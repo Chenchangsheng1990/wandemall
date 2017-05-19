@@ -1,0 +1,410 @@
+/*public*/
+#login,#logobox,#mycar{
+	width: 1200px;
+	margin: auto;
+}
+/*cart-head*/
+#login{height: 35px;margin-bottom: 20px;line-height: 35px;overflow: hidden;}
+#login .lg_re{width: 400px;height: 30px;float: left;line-height: 30px;}
+#login .lg_re span{margin-left: 20px;}
+#login .lg_re a:first-child{margin-left: 82px; margin-right: 20px;}
+#login ul{float: right;}
+#login ul li{float: left;width: 70px;height: 30px;text-align: center;line-height: 30px;position: relative;z-index: 10;}
+/*logo*/
+#logobox{
+	height: 75px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#logobox h1{
+	width: 155px;
+	height: 75px;
+	float: left;
+}
+#logobox div{
+	height: 46px;
+	float: right;
+	position: relative;
+	margin-top: 20px;
+}
+#logobox div span{
+	display: block;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 46px;
+	font-size: 16px;
+	background: #ddd;
+}
+#logobox div p{
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+#logobox div h3{
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+}
+#logobox .car-a{
+	width: 136px;
+	margin-right: 20px;
+}
+#logobox .car-a span{
+	background: #ff6600;
+	
+}
+#logobox .car-a h3{
+	color: #FF6600;
+}
+
+#logobox .car-b{
+	width: 150px;
+	margin-right: 20px;
+}
+
+#logobox .car-c{
+	width: 120px;
+}
+/*mycar*/
+#mycar{
+	overflow: hidden;
+}
+#mycar .mycar_l{
+	width: 198px;
+	height: 410px;
+	border: 1px solid #FF6600;
+	float: left;
+}
+#mycar .mycar_l .mymess{
+	height: 32px;
+	width: 168px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 32px;
+	background: #FF6600;
+}
+#mycar .mycar_l ul li{
+	text-indent: 30px;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 5px;
+	
+}
+#mycar .mycar_l ul li:hover {
+	background: #ffa264;
+}
+#mycar .mycar_l ul li:hover a{
+	color: #fff;
+}
+#mycar .mycar_l input{
+	width: 100px;
+	height: 30px;
+	border: 0;
+	background: #FF6600;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+#mycar .mycar_r{width: 993px;float: right;}
+#mycar .mycar_r h2{
+	width: 993px;
+	height: 30px;
+	border-bottom: 2px solid #FF6600;
+	margin-bottom: 20px;
+}
+#mycar .mycar_r .car-box{
+	width: 993px;	
+}
+#mycar .mycar_r .car-box .check_all{
+	width: 993px;
+	height: 30px;
+	position: relative;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+}
+#mycar .mycar_r .car-box .checkall{
+	width: 64px;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_qx{
+	width: 94px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_sp{
+	width: 255px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_dj{
+	width: 129px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_sl{
+	width: 133px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_xj{
+	width: 130px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_zt{
+	width: 85px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+}
+#mycar .mycar_r .car-box .check_cz{
+	width: 85px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	float: right;
+}
+#mycar .mycar_r .product{
+	width: 993px;
+	height: 80px;
+	position: relative;
+	border-bottom: 1px dotted #ddd;
+}
+#mycar .mycar_r .product .checksingel{
+	width: 64px;
+	margin-top: 35px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .product .id{
+	width: 60px;
+	height: 60px;
+	padding: 10px 17px 10px 17px;
+	float: left;
+}
+#mycar .mycar_r .product .id img{
+	width: 60px;
+	height: 60px;
+}
+#mycar .mycar_r .product .name{
+	width: 255px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .product .price{
+	width: 129px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .product .amount_box{
+	width: 133px;
+	float: left;
+}
+#mycar .mycar_r .product .sub{
+	width: 130px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .product .p_zt{
+	width: 85px;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+}
+#mycar .mycar_r .product .p_sc{
+	width: 85px;
+	line-height: 80px;
+	text-align: center;
+	float: right;
+}
+#mycar .mycar_r .spje{
+	margin-top: 20px;
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#mycar .mycar_r .spje span{
+	color: #FF6600;
+	font-weight: bold;
+}
+
+#mycar .mycar_r .jiesuan{
+	height: 40px;
+}
+#mycar .mycar_r .jiesuan span{
+	float: right;
+}
+#mycar .mycar_r .jiesuan span input{
+	width:140px;
+	height:40px;
+	border: 0;
+	background-color:#FF6600;
+	border-radius:3px;
+	color:#FFFFFF;
+	font-size:16px;
+	cursor: pointer;
+}
+#mycar .mycar_r .jiesuan a{
+	color:#669934;
+	margin-right:10px;
+	font-size:16px;
+	display:inline-block;
+	width:90px;
+	height:43px;
+	line-height:43px;
+	float: right;
+	
+}
+
+
+#mycar .mycar_r .addnew{
+	margin-top: 20px;
+	width: 961px;
+	height: 15px;
+	border: 1px solid #ddd;
+	padding: 20px 15px 20px 15px;
+	position: relative;
+	overflow: hidden;
+}
+#mycar .mycar_r .addnew h3{
+	position: relative;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+#mycar .mycar_r .addnew h3 span{
+	display: block;
+	height: 24px;
+	width: 24px;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 24px;
+}
+#mycar .mycar_r .addnew h3 a{
+	color: red;
+	margin-left: 28px;
+	font-size: 16px;
+	line-height: 24px;
+}
+#mycar .mycar_r .addnew h4{
+	width: 941px;
+	height: 26px;
+	border: 1px dotted #318700;
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+#mycar .mycar_r .addnew h4 a{
+	color: #318700;
+	margin-left: 28px;
+}
+#mycar .mycar_r .addnew .new_cp li img{width: 62px;height: 62px;position: absolute;top: 0;left: 0;}
+#mycar .mycar_r .addnew .new_cp li{
+	float: left;
+	width: 238px;
+	height: 112px;
+	position: relative;
+	overflow: hidden;
+}
+#mycar .mycar_r .addnew .new_cp li .cp_name{
+	position: absolute;
+	left: 68px;
+	top: 10px;
+}
+#mycar .mycar_r .addnew .new_cp li .jiag{
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	top: 50px;
+	left: 68px;
+}
+#mycar .mycar_r .addnew .new_cp li .btn{
+	width: 220px;
+	height: 25px;
+	background: #FF6600;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: -30px;
+	transform: translateY(0);
+	transition: .3s;
+}
+#mycar .mycar_r .addnew .new_cp li .btn a{
+	color: #fff;
+}
+#mycar .mycar_r .addnew .zhank{
+	font-style: normal;
+	margin-left: 15px;
+	cursor: pointer;
+}
+#mycar .mycar_r .addnew .new_cp li .btn a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+#mycar .mycar_r .addnew .new_cp li:hover{border: 1px solid #ddd;width: 236px;height: 110px;}
+#mycar .mycar_r .addnew .new_cp li:hover .btn{
+	transform: translateY(-40px);
+}
+#mycar .mycar_r .addnew .addpage{
+	width: 951px;
+	height: 11px;
+	position: absolute;
+	bottom: 20px;
+	display: none;
+
+}
+#mycar .mycar_r .addnew .addpage span{
+	display: block;
+	border: 1px solid #318700;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+}
+#mycar .mycar_r .addnew .addpage .page-a{
+	position: absolute;
+	top: 0;
+	left: 450px;
+	background: #318700;
+}
+#mycar .mycar_r .addnew .addpage .page-b{
+	position: absolute;
+	top: 0;
+	left: 470px;
+}

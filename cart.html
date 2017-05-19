@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="login">
+				<div class="lg_re">
+					<a href="register.html">注册</a>
+					<a href="login.html">登录</a>
+					<span>万德商城欢迎您：请先登录</span>
+				</div>
+				<ul>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">商家入口</a></li>
+					<li><a href="#">客户服务</a></li>
+				</ul>
+		</div>
+		<!--logo-->
+		<div id="logobox">
+			<h1><a href="index.html"><img src="images/indexlogo.png"/></a></h1>
+			<div class="car-c">
+				<span>3</span>
+				<p>第三步</p>
+				<h3>提交成功</h3>
+			</div>
+			<div class="car-b">
+				<span>2</span>
+				<p>第二步</p>
+				<h3>填写核对订单</h3>
+			</div>
+			<div class="car-a">
+				<span>1</span>
+				<p>第一步</p>
+				<h3>我的购物车</h3>
+			</div>
+		</div>
+		<!--mycar-->
+		<div id="mycar">
+			<div class="mycar_l">
+				<div class="mymess">
+					买家后台
+				</div>
+				<ul>
+					<li><a href="#">我的信息管理</a></li>
+					<li><a href="#">收货地址管理</a></li>
+					<li><a href="#">购物车</a></li>
+					<li><a href="#">订单管理</a></li>
+					<li><a href="#">充值管理</a></li>
+					<li><a href="#">换货管理</a></li>
+					<li><a href="#">收藏管理</a></li>
+					<li><a href="#">退货退款管理</a></li>
+					<li><a href="#">优惠券</a></li>
+					<li><a href="#">系统信息</a></li>
+				</ul>
+				<input type="submit" id="zxbtn" value="注销退出" />
+			</div>
+			<div class="mycar_r">
+				<h2>我的购物车</h2>
+				<form action="" method="post" id="form1" name="form1">
+					<div class="car-box">
+						<div class="check_all">
+							<label>
+										<input type="checkbox" class="checkall" value="2" name="quanxuan" />
+							</label>
+							<div class="check_qx">
+								全选
+							</div>
+							<div class="check_sp">
+								商品
+							</div>
+							<div class="check_dj">
+								单价
+							</div>
+							<div class="check_sl">
+								购买数量
+							</div>
+							<div class="check_xj">
+								小计
+							</div>
+							<div class="check_zt">
+								库存状态
+							</div>
+							<div class="check_cz">
+								操作
+							</div>
+						</div>
+						<div class="empty" style="display: none;  width: 993px;height: 80px;line-height: 80px; text-align: center;font-size: 18px;color: #FF6600;">购物车为空</div>
+						
+						<div class="cart-body"> <!-- 购物车显示主体 -->
+			
+						</div>
+						
+						<div class="product" style="display: none;">
+							<label>
+								<input type="checkbox" class="checksingel" name="cksl" />
+							</label>
+							<div class="id">
+								<img src="images/floorbanner02.jpg" style="width: 60px;height: 60px;"/>
+							</div>
+							<div class="name">
+								宅配-禽蛋类月套餐
+							</div>
+							<div class="price">
+								880.0
+							</div>
+							<div class="amount_box">
+								<input class="min" type="button" value="-" style="width: 22px;height: 22px;border-radius: 3px;border: 0;cursor: pointer;margin-left: 20px;">
+								<input class="amount" type="text" name="number" value="1" style="width: 46px;height: 24px;text-align: center;margin-top: 25px;">
+								<input class="add" type="button" value="+" style="width: 22px;height: 22px;border-radius: 3px;border: 0;cursor: pointer;">
+							</div>
+							<div class="sub">
+								880.0
+							</div>
+							<div class="p_zt">
+								有货
+							</div>
+							<div class="p_sc">
+								<a href="javascript:;">删除</a>
+							</div>
+						</div>
+						<div class="spje">
+							已选择<span class="spsl_sp">0</span>件商品，商品金额：<span class="spje_sp">0.00</span>元
+						</div>
+						<div class="jiesuan">
+							<span><input type="button" class="jsBtn" value="去结算"/></span>
+							<a href="index.html">继续购物</a>
+						</div>
+						
+					</div>
+					
+				</form>
+				<div class="addnew">
+					<h3><span>新</span><a href="#">新品凑单</a><i class="zhank">点击展开</i></h3>
+					<h4><a href="#">新品凑单</a></h4>
+					<ul class="new_cp">
+						<li class="cp_cp">
+							<a href="#"><img src="images/commImg14903444612229093.jpg" id="yt_pic"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装aa</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装bb</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装cc</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装dd</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="javascript:;">红灯优级大樱桃2斤装</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>
+						<li>
+							<a href="#"><img src="images/commImg14903444612229093.jpg"/></a>
+							<p class="cp_name"><a href="#">红灯优级大樱桃2斤装</a></p>
+							<p class="jiag">￥148.0</p>
+							<p class="btn"><a href="javascript:;">加入购物车</a></p>
+						</li>	
+					</ul>
+					<div class="addpage">
+							<span class="page-a"></span>
+							<span class="page-b"></span>
+					</div>
+				</div>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/cart.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript">
+		</script>	
+				
+				
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页面</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/newpro.css" />
+	</head>
+	<body>
+		<!--页头部分-->
+		<!--login&register-->
+		<div id="wrap-login">
+			<div id="login">
+				<div class="lg_re">
+					<a href="register.html">注册</a>
+					<a href="login.html">登录</a>
+					<span>万德商城欢迎您：请先登录</span>
+				</div>
+				<ul>
+					<li>
+						<a href="#">我的账户</a>
+						<span>
+							<p>你还没有&nbsp;&nbsp;<a href="#">登录</a></p>
+							<p><a href="#">我的信息管理</a><a href="#">收货地址管理</a></p>
+							<p><a href="#">购物车</a><a href="#">订单管理</a></p>
+							<p><a href="#">换货管理</a><a href="#">收藏管理</a></p>	
+						</span>
+					</li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">商家入口</a></li>
+					<li><a href="#">客户服务</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--mainhead-->
+		<div id="wrap-main">
+			<div id="main-head">
+				<h1><a href="index.html"><img src="images/indexlogo.png"/></h1>
+				<div class="serh">
+					<form>
+						<input type="text"  id="serch_box" placeholder="请输入想要购买的物品！" />
+						<input type="button" id="serch_btn" value="搜索" />
+					</form>
+					<p><a href="#">红心蜜柚</a><a href="#">芭乐</a><a href="#">冬枣</a><a href="#">百香果</a></p>
+				</div>	
+				<div class="maimg">
+					<a href="#"><img src="images/wm.gif"/>
+				</div>
+			</div>
+		</div>
+		<!--main-->
+		<div id="wrap-mainb">
+			<div id="main">
+				<ul>
+					<li><a href="#">所有商品分类</a></li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="wdyx.html">万德优品</a></li>
+					<li><a href="newtry.html">新品尝鲜</a></li>
+					<li><a href="#">优惠活动</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--goodnav-->
+		<div id="goodsnav">
+			一站式家庭绿色健康食品采购平台 <a href="index.html">首页</a>&nbsp;&gt;&nbsp;<span>山东省沂水县宋玉波山羊排2斤装</span>
+		</div>
+		<!--goodsdetail-->
+		<div id="goodsdetail">
+			<div class="g_l">
+				<ul>
+					<li id="pic_a_s"><img src="images/commImg14776257343123389.jpg"/></li>
+					<li id="pic_b_s"><img src="images/commImg14776257343133470.jpg"/></li>
+					<li id="pic_c_s"><img src="images/commImg14776257343146401.jpg"/></li>
+				</ul>
+				<div class="goods_big">
+					<img src="images/commImg14776257343123389.jpg" id="pic_a" data-zoom-image="images/commImg1000(1).jpg"/>
+					<!--<img src="images/commImg14776257343123389.jpg" id="pic_b" data-zoom-image="images/commImg1000(2).jpg" style="display: none;"/>
+					<img src="images/commImg14776257343123389.jpg" id="pic_c" data-zoom-image="images/commImg1000(3).jpg" style="display: none;"/>-->
+				</div>
+			</div>
+			<div class="g_r">
+				<div class="itroname">
+					<h1 class="cpName">山东省折水县宋玉波山羊排2斤装</h1>
+				</div>
+				<p class="itrodescribe">健康美味，肉质鲜美！</p>
+				<p class="itroprice"><b>￥72.1</b>原价<del>90.12</del></p>
+				<form action="" method="post" id="product">
+					数量：<input type="button" value="-" class="min_good">
+					<input type="text" value="1" class="goodcount">
+					<input type="button" class="addgoods" value="+" />(库存<b>500</b>件)
+				</form>
+				<div class="buybtn">
+					<button type="button" class="onbtn">加入购物车购买</button>
+					<a href="javascript:;" class="jiesbtn">去结算</a>
+				</div>
+			</div>			
+		</div>
+		<!--shouchang-->
+		<div id="shouchang">
+			<a href="#"><i>★</i>收藏</a>
+		</div>
+		<!--一起买-->
+		<div id="gbuy">
+			<div class="buy_l">
+				<h3>热门分类</h3>
+				<ul>
+					<li><a href="#">羊肉</a></li>
+					<li><a href="#">土猪肉</a></li>
+					<li><a href="#">牛肉</a></li>
+					<li><a href="#">驴肉</a></li>
+					<li><a href="#">禽类</a></li>
+					<li><a href="#">熟肉类</a></li>
+					<li><a href="#">其他</a></li>
+					<li><a href="#">羊排</a></li>
+					<li><a href="#">蛋类</a></li>
+				</ul>
+			</div>
+			<div class="buy_r">
+				<div class="ggg">
+					经常一起购买
+				</div>
+				<ul>
+					<li>
+						<a href="#"><img src="images/commImg14776257343123389.jpg"/></a>
+						<p><a href="#">山东省沂水县宋玉波山羊排2斤装</a></p>
+						<b>￥72.1</b>
+					</li>
+					<li class="add_a">+</li>
+					<li>
+						<a href="#"><img src="images/commImg14776257343123389.jpg"/></a>
+						<p><a href="#">山东省沂水县宋玉波山羊排2斤装</a></p>
+						<b>￥72.1</b>
+						<form action="" method="post" id="buy_check">
+							<input type="checkbox"  value="" />
+						</form>
+					</li>
+					<li>
+						<a href="#"><img src="images/commImg14776257343123389.jpg"/></a>
+						<p><a href="#">山东省沂水县宋玉波山羊排2斤装</a></p>
+						<b>￥72.1</b>
+						<form action="" method="post" id="buy_check">
+							<input type="checkbox"  value="" />
+						</form>
+					</li>
+					<li>
+						<a href="#"><img src="images/commImg14776257343123389.jpg"/></a>
+						<p><a href="#">山东省沂水县宋玉波山羊排2斤装</a></p>
+						<b>￥72.1</b>
+						<form action="" method="post" id="buy_check">
+							<input type="checkbox"  value="" />
+						</form>
+					</li>
+				</ul>
+				<div class="add_cart">
+					<p>已选择<span class="sp_cont">1</span>个商品</p>
+					<p>搭配价：<span class="cp_pirce">72.1</span></p>
+					<button type="submit" id="addbtn">加入购物车</button>
+				</div>
+			</div>
+		</div>
+		<!--xqbox-->
+		<div id="xqbox">
+			<div class="xq_l">
+				<dl>
+					<dt>买了又买</dt>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+					<dd>
+						<a href="#"><img src="images/commImg14884415101921564.jpg"/></a><br/>
+						<a href="#">廋肉（500g）</a>
+						<p>￥48.00</p>					
+					</dd>
+				</dl>
+			</div>
+			<div class="xq_r">
+				<ul class="xqxq">
+					<li><a href="#xq_js">商品详情</li>
+					<li><a href="#xq_pj">商品评价</li>
+				</ul>
+				<div id="xq_js">
+					<img src="images/20161028113400_753.jpg"/>
+					<img src="images/20161028113407_112.jpg"/>
+					<img src="images/20161028113413_822.jpg"/>
+				</div>
+				<div id="xq_pj">
+					<div class="pj_head">商品评价</div>
+					<ul class="pj">
+						<li>
+							<i></i>
+							<img src="images/shoppingpeople.png"/>
+							<div class="pj_cont">
+								<dl>
+									<dt>
+										<p class="pj_lx">132*****5869<span>普通会员</span></p>
+										<p class="pj_sj">2016/11/8</p>
+									</dt>
+									<dd>评分:<span>★★★★★</span></dd>
+									<dd>内容:<span class="pj_pj">很好吃，很好吃，很好吃！</span></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+					<ul class="pj">
+						<li>
+							<i></i>
+							<img src="images/shoppingpeople.png"/>
+							<div class="pj_cont">
+								<dl>
+									<dt>
+										<p class="pj_lx">132*****5869<span>普通会员</span></p>
+										<p class="pj_sj">2016/11/8</p>
+									</dt>
+									<dd>评分:<span>★★★★★</span></dd>
+									<dd>内容:<span class="pj_pj">很好吃，很好吃，很好吃！</span></dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+					<div class="pages">
+						记录总数：<b>4</b>&nbsp;&nbsp;|&nbsp;&nbsp;每页记录数：<b>5</b>&nbsp;&nbsp;|&nbsp;&nbsp;页数：<b>1</b>&nbsp;&nbsp;|&nbsp;&nbsp;当前页码：<b>1</b>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--foot-->
+		<div id="foot">
+			<ul class="ul-a">
+				<h5>新手指导</h5>
+				<li><a href="#">新用户演示</a></li>
+				<li><a href="#">关于发票</a></li>
+			</ul>
+			<ul class="ul-b">
+				<h5>付款方式</h5>
+				<li><a href="#">支付方式</a></li>
+				<li><a href="#">支付常见问题</a></li>
+				<li><a href="#">充值规则</a></li>
+				<li><a href="#">礼券说明</a></li>
+			</ul>
+			<ul class="ul-c">
+				<h5>物流配送</h5>
+				<li><a href="#">配送规则</a></li>
+				<li><a href="#">订单处理时间</a></li>
+				<li><a href="#">验货与拒收政策</a></li>
+				<li><a href="#">配送范围</a></li>
+			</ul>
+			<ul class="ul-d">
+				<h5>售后服务</h5>
+				<li><a href="#">退款说明</a></li>
+				<li><a href="#">退换货流程</a></li>
+				<li><a href="#">退换货政策</a></li>
+				<li><a href="#">隐私条款</a></li>
+			</ul>
+			<dl>
+				<dt><a href="#"><img src="images/wdmallfw.png"/></a></dt>
+				<dd><a href="#">万德商城服务号</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="images/wdmalldy.jpg"/></a></dt>
+				<dd><a href="#">万德商城订阅号</a></dd>
+			</dl>
+			<div class="foot-b">
+				<p>万德商城  老百姓的线上菜篮子</p>
+				<p>400客服热线:<b>4008515700</b>周一至周日 8:00-20:00&nbsp;&nbsp;在线客服：<a target="_blank" href="#"><img border="0" src="images/pa.gif" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
+				<p>
+					<a href="#" target="_blank">关于我们</a><span>|</span>
+					<a href="#" target="_blank">万德集团</a><span>|</span>
+					<a href="#"  target="_blank">友情链接</a><span>|</span>
+					<a href="#"  target="_blank">免责条款</a>
+				</p>
+				<p>2012-2016 wandemall.com. All Rights Reserved. 浙江万德网络技术有限公司</p>
+				<p>万德网络购物农产品商城 地址：杭州市滨江区上峰电商产业园1号楼407室</p>
+				<p>浙ICP备16026391号 &nbsp;营业执照（  统一社会信用代码）： 91330108MA27XXCH2C</p>
+				<p><img src="images/ggg.jpg"/><a href="#"/>浙公网安备 33010802007228号</a></p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.elevateZoom-2.2.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/jquery.fly.min.js"></script>
+		<script type="text/javascript" src="js/new_pro.js"></script>
+		<script type="text/javascript" src="js/base.js"></script>
+		<script type="text/javascript">
+		</script>
+	</body>
+</html>
